@@ -8,7 +8,7 @@
 -- ORDER BY e1.departmentId, e1.salary DESC;
 
 
-# Or we can have this 
+# Or we can have query with DENSE_RANK()
 -- SELECT e1.name, e1.salary,
 -- DENSE_RANK() OVER
 -- (PARTITION BY e1.departmentId ORDER BY e1.salary DESC) AS 'rank'
